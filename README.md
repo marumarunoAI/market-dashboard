@@ -12,12 +12,6 @@ Static site on GitHub Pages, charts by [lightweight-charts](https://github.com/t
 - Browser-direct sources (CORS `*`): Binance klines via `data-api.binance.vision` (falls back to `api.binance.com`), alternative.me Fear & Greed.
 - Adding an indicator from an existing source = one line in `indicators.json`. A new source = one function in `FETCH` (app.js) or `FETCHERS` (fetch.py).
 
-## Scheduled fetch: pending
-
-`ci/fetch.yml` is the scheduled workflow. It belongs at `.github/workflows/fetch.yml`, but the box's GitHub token lacks the
-Workflows permission, so GitHub rejects pushes there. Until it moves, `data/` holds a snapshot made by running
-`python3 fetch.py` on the build box (see `data/status.json` `_fetched_at`). Binance and Fear & Greed are live regardless.
-
 ## Data sources (tested 2026-11-24)
 
 | Source | Works | History | 4H | Browser CORS |
