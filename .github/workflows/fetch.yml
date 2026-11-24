@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: '17 */4 * * *'   # every 4 hours (UTC)
   workflow_dispatch:
+  push:                       # refetch when the indicator list or fetcher changes
+    branches: [main]
+    paths: [indicators.json, fetch.py, .github/workflows/fetch.yml]
 permissions:
   contents: write
 concurrency: fetch
