@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Market Compare</title>
+<style>
+  :root { --bg:#0d1117; --panel:#161b22; --line:#30363d; --text:#e6edf3; --dim:#8b949e; --bad:#f85149; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  header { display:flex; flex-wrap:wrap; gap:12px; align-items:center; padding:10px 14px; border-bottom:1px solid var(--line); }
+  h1 { font-size:15px; margin:0 8px 0 0; font-weight:600; }
+  .group { display:flex; gap:4px; }
+  button { background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:4px 9px; font:inherit; cursor:pointer; }
+  button.active { border-color:#58a6ff; background:#1f6feb33; }
+  #toggles { display:flex; flex-wrap:wrap; gap:14px; padding:8px 14px; border-bottom:1px solid var(--line); }
+  .cat { display:flex; flex-wrap:wrap; gap:4px; align-items:center; }
+  .cat > span { color:var(--dim); margin-right:2px; }
+  .tog .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; }
+  .tog:not(.active) { opacity:.55; }
+  .tog.bad { border-color:var(--bad); color:var(--bad); opacity:1; text-decoration:line-through; }
+  .tog .note { color:var(--dim); font-size:11px; margin-left:4px; }
+  #chart { position:relative; }
+  #legend { position:absolute; top:6px; left:10px; z-index:3; pointer-events:none; font-size:12px; line-height:1.5; background:#0d1117cc; padding:2px 6px; border-radius:4px; }
+  #status { padding:8px 14px; color:var(--dim); font-size:12px; }
+  #status table { border-collapse:collapse; margin-top:6px; }
+  #status td, #status th { padding:2px 10px 2px 0; text-align:left; font-weight:normal; }
+  #status .bad { color:var(--bad); }
+  .hint { color:var(--dim); font-size:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Market Compare</h1>
+  <div class="group" id="ranges"></div>
+  <div class="group" id="intervals"></div>
+  <span class="hint">% axis = change from leftmost visible bar · own-scale indicators get their own pane</span>
+</header>
+<div id="toggles"></div>
+<div id="chart"><div id="legend"></div></div>
+<details id="status"><summary>Data status</summary><div id="statusBody">loading…</div></details>
+<script src="https://unpkg.com/lightweight-charts@5.3.0/dist/lightweight-charts.standalone.production.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

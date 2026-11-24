@@ -1,0 +1,17 @@
+[
+  {"id": "spx",    "name": "S&P 500",          "source": "yahoo",   "symbol": "^GSPC",    "category": "Stocks",      "scale": "pct", "on": true},
+  {"id": "nvda",   "name": "NVDA",             "source": "yahoo",   "symbol": "NVDA",     "category": "Stocks",      "scale": "pct", "on": true},
+  {"id": "ndx",    "name": "Nasdaq Comp.",     "source": "yahoo",   "symbol": "^IXIC",    "category": "Stocks",      "scale": "pct"},
+  {"id": "gold",   "name": "Gold (GC=F)",      "source": "yahoo",   "symbol": "GC=F",     "category": "Commodities", "scale": "pct", "on": true},
+  {"id": "paxg",   "name": "PAXG",             "source": "binance", "symbol": "PAXGUSDT", "category": "Commodities", "scale": "pct"},
+  {"id": "btc",    "name": "BTC",              "source": "binance", "symbol": "BTCUSDT",  "category": "Crypto",      "scale": "pct", "on": true, "backfill": "BTC-USD"},
+  {"id": "eth",    "name": "ETH",              "source": "binance", "symbol": "ETHUSDT",  "category": "Crypto",      "scale": "pct", "backfill": "ETH-USD"},
+  {"id": "dxy",    "name": "DXY",              "source": "yahoo",   "symbol": "DX-Y.NYB", "category": "Macro",       "scale": "pct"},
+  {"id": "usdbroad","name": "USD Broad (FRED)","source": "fred",    "symbol": "DTWEXBGS", "category": "Macro",       "scale": "pct"},
+  {"id": "fed",    "name": "Fed Funds (eff.)", "source": "fred",    "symbol": "DFF",      "category": "Rates",       "scale": "own", "on": true, "marks": "DFEDTARU"},
+  {"id": "t10y2y", "name": "10Y-2Y",           "source": "fred",    "symbol": "T10Y2Y",   "category": "Rates",       "scale": "own"},
+  {"id": "t10y3m", "name": "10Y-3M",           "source": "fred",    "symbol": "T10Y3M",   "category": "Rates",       "scale": "own"},
+  {"id": "dgs10",  "name": "10Y yield",        "source": "fred",    "symbol": "DGS10",    "category": "Rates",       "scale": "own"},
+  {"id": "vix",    "name": "VIX",              "source": "yahoo",   "symbol": "^VIX",     "category": "Sentiment",   "scale": "own"},
+  {"id": "fng",    "name": "Crypto Fear&Greed","source": "fng",     "symbol": "",         "category": "Sentiment",   "scale": "own"}
+]

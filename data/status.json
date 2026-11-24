@@ -1,0 +1,56 @@
+{
+ "spx": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "nvda": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "ndx": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "gold": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "btc_backfill": {
+  "ok": true,
+  "last": "2026-11-24"
+ },
+ "eth_backfill": {
+  "ok": true,
+  "last": "2026-11-24"
+ },
+ "dxy": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "usdbroad": {
+  "ok": true,
+  "last": "2026-11-20"
+ },
+ "fed": {
+  "ok": true,
+  "last": "2026-11-20"
+ },
+ "t10y2y": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "t10y3m": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "dgs10": {
+  "ok": true,
+  "last": "2026-11-20"
+ },
+ "vix": {
+  "ok": true,
+  "last": "2026-11-23"
+ },
+ "_fetched_at": "2026-11-24T02:52Z",
+ "_fred_mode": "fredgraph.csv (keyless)"
+}
