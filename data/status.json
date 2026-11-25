@@ -1,15 +1,15 @@
 {
  "spx": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "nvda": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "ndx": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "gold": {
   "ok": true,
@@ -51,6 +51,6 @@
   "ok": true,
   "last": "2026-11-25"
  },
- "_fetched_at": "2026-11-25T13:41Z",
+ "_fetched_at": "2026-11-25T17:16Z",
  "_fred_mode": "api"
 }
