@@ -5,7 +5,7 @@
  },
  "nvda": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-23"
  },
  "ndx": {
   "ok": true,
@@ -17,11 +17,11 @@
  },
  "btc_backfill": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "eth_backfill": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "dxy": {
   "ok": true,
@@ -33,24 +33,24 @@
  },
  "fed": {
   "ok": true,
-  "last": "2026-11-20"
+  "last": "2026-11-23"
  },
  "t10y2y": {
   "ok": true,
-  "last": "2026-11-23"
+  "last": "2026-11-24"
  },
  "t10y3m": {
   "ok": true,
-  "last": "2026-11-23"
+  "last": "2026-11-24"
  },
  "dgs10": {
   "ok": true,
-  "last": "2026-11-20"
+  "last": "2026-11-23"
  },
  "vix": {
   "ok": true,
   "last": "2026-11-24"
  },
- "_fetched_at": "2026-11-24T21:10Z",
+ "_fetched_at": "2026-11-25T01:38Z",
  "_fred_mode": "api"
 }
