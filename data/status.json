@@ -5,7 +5,7 @@
  },
  "nvda": {
   "ok": true,
-  "last": "2026-11-23"
+  "last": "2026-11-24"
  },
  "ndx": {
   "ok": true,
@@ -13,7 +13,7 @@
  },
  "gold": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "btc_backfill": {
   "ok": true,
@@ -25,7 +25,7 @@
  },
  "dxy": {
   "ok": true,
-  "last": "2026-11-24"
+  "last": "2026-11-25"
  },
  "usdbroad": {
   "ok": true,
@@ -51,6 +51,6 @@
   "ok": true,
   "last": "2026-11-24"
  },
- "_fetched_at": "2026-11-25T01:38Z",
+ "_fetched_at": "2026-11-25T05:24Z",
  "_fred_mode": "api"
 }
