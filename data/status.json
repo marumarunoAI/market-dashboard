@@ -17,11 +17,11 @@
  },
  "btc_backfill": {
   "ok": true,
-  "last": "2026-11-26"
+  "last": "2026-11-27"
  },
  "eth_backfill": {
   "ok": true,
-  "last": "2026-11-26"
+  "last": "2026-11-27"
  },
  "dxy": {
   "ok": true,
@@ -51,6 +51,6 @@
   "ok": true,
   "last": "2026-11-26"
  },
- "_fetched_at": "2026-11-26T21:09Z",
+ "_fetched_at": "2026-11-27T01:40Z",
  "_fred_mode": "api"
 }
