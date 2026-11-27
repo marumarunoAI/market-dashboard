@@ -13,7 +13,7 @@
  },
  "gold": {
   "ok": true,
-  "last": "2026-11-26"
+  "last": "2026-11-27"
  },
  "btc_backfill": {
   "ok": true,
@@ -25,7 +25,7 @@
  },
  "dxy": {
   "ok": true,
-  "last": "2026-11-26"
+  "last": "2026-11-27"
  },
  "usdbroad": {
   "ok": true,
@@ -51,6 +51,6 @@
   "ok": true,
   "last": "2026-11-26"
  },
- "_fetched_at": "2026-11-27T01:40Z",
+ "_fetched_at": "2026-11-27T05:26Z",
  "_fred_mode": "api"
 }
