@@ -5,7 +5,7 @@
  },
  "nvda": {
   "ok": true,
-  "last": "2026-11-25"
+  "last": "2026-11-27"
  },
  "ndx": {
   "ok": true,
@@ -51,6 +51,6 @@
   "ok": true,
   "last": "2026-11-27"
  },
- "_fetched_at": "2026-11-28T01:34Z",
+ "_fetched_at": "2026-11-28T05:18Z",
  "_fred_mode": "api"
 }
